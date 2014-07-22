@@ -1,0 +1,5 @@
+== README
+
+http://www.sitepoint.com/infinite-scrolling-rails-basics/
+
+Also, Rails Casts video - 114 (revised)
