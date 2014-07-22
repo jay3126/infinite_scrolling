@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-puts "*********** Creating dummy errors ***********"
+puts "*********** Creating dummy records for Posts ***********"
 puts ""
 puts ""
 
@@ -14,4 +14,16 @@ puts ""
 
 puts ""
 puts ""
-puts "*********** Dummy records creation completed successfully. ***********"
+puts "*********** Dummy records creation for Posts completed successfully. ***********"
+puts ""
+puts ""
+
+puts "*********** Creating dummy records for Comments ***********"
+puts ""
+puts ""
+
+1000.times { |i| Comment.create(name: "Comment #{i}", comment_type: "#{i}", comment_name: "Comment Name: #{i}") }
+
+puts ""
+puts ""
+puts "*********** Dummy records creation for Comment completed successfully. ***********"
